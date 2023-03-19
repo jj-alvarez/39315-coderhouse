@@ -26,7 +26,6 @@ ul{
 /* dorado claro rgba(251, 240, 216, 1)
 /* gris fondo rgba(235, 235, 235, 1) 
 
-
 */
 
 .container{
@@ -46,7 +45,6 @@ ul{
 }
 
 
-
 /* INDEX.HTML------------------------------------------------------------------ */
 
 /*
@@ -63,7 +61,6 @@ ul{
     ;
 }
 */
-
 
 .main-header{
     background-color: white;
@@ -294,7 +291,6 @@ ul{
 }
 
 
-
 /* FOOTER --------------------------------------------------------------------- */
 
 .container-newsletter{
@@ -396,7 +392,6 @@ ul{
     align-self: center;
 }
 
-
 .container-cv{
     background-color: rgba(224, 208, 189, 1);
     color: black;
@@ -420,6 +415,7 @@ ul{
     text-align: center;
 }
 
+
 /* APPLE.HTML -----------------------------------------------------------------------*/
 
 .market{
@@ -437,7 +433,6 @@ ul{
     flex-wrap: wrap;
     align-content: center;
 }
-
 
 .market-item{
     text-decoration: none;
@@ -470,8 +465,6 @@ ul{
 }
 
 
-
-
 /* CONDICIONES.HTML -----------------------------------------------------------------*/
 
 .condiciones{
@@ -499,6 +492,7 @@ ul{
     padding-bottom: 16px;
     text-align: left;
 }
+
 
 /* LOGIN.HTML -----------------------------------------------------------------*/
 
@@ -586,6 +580,7 @@ ul{
     box-shadow: 5px 5px 5px grey;
 }
 
+
 /* PROXIMAMENTE.HTML -----------------------------------------------------------------*/
 
 .proximamente{
@@ -615,8 +610,321 @@ ul{
 
 /* MEDIA QUERIES --------------------------------------------------------------------*/
 
+@media(max-width:1024px){
+
+    /* HEADER */
+    .bottom-header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .search-bar-text-area{
+        margin-top: 16px;
+    }
+
+    .search-bar-button{
+        margin-right: 0px;
+    }
+
+    /* INDEX */
+        /* ok */
+        
+    /* ABOUT */
+    .nosotros{
+        height: 100%;
+    }
+
+    /* APPLE */
+    .market{
+        height: 100%;
+    }
+
+    /* CONDICIONES */
+    .condiciones{
+        height: 100%;
+    }
+
+    /* LOGIN */ 
+        /* ok */ 
+    
+    /* PROXIMAMENTE */ 
+        /* ok */ 
+}
 
 
+
+@media(max-width:768px){
+
+    /* HEADER */
+
+    .bottom-header ul li{
+        line-height: 32px;
+    }
+
+    /* ABOUT */
+        /* ok */
+
+    /* APPLE */
+    .container-item{
+        width: 90%; 
+        column-gap: 50px;
+    }
+
+    /* CONDICIONES */
+        /* ok */ 
+
+    /* LOGIN */
+    .login-box{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .registrarse{
+        background-color: white;
+        width: auto;
+    }
+    
+    .registrarse-button{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* PROXIMAMENTE */ 
+        /* ok */ 
+}
+
+
+@media(max-width:425px){
+
+    /* HEADER */
+    .top-header ul{
+        line-height: 25px;
+        text-align: right;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    
+    .top-header h1{
+        font-size: 28px;
+    }
+
+    .bottom-header ul li{
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px; 
+    }
+
+    .nav-main-header{
+        padding-top: 0px;
+    }
+
+    /* FOOTER */
+    .container-newsletter h3{
+        font-size: 16px;
+    }
+
+    .container-newsletter p{
+        font-size: 14px;
+    }
+
+    /* INDEX */
+    .main-banner-title h3{
+        font-size: 18px;
+    }
+
+    .main-banner-title p{
+        font-size: 16px;
+    }
+
+    .container-boxes{
+        flex-direction: column;
+    }
+    
+    .box-index{
+        width: 90%;
+        line-height: 25px;
+    }
+
+    /* ABOUT */
+        /* ok */
+
+    /* APPLE */
+        /* ok */
+
+    /* CONDICIONES */
+        /* ok */
+
+    /* LOGIN */
+    .login{
+        height: 70vh;
+    }
+
+    .login-box{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .registrarse{
+        background-color: white;
+        width: auto;
+    }
+    
+    .registrarse-button{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* PROXIMAMENTE */
+    .proximamente{
+        width: 80%;
+        display: inline;
+    }
+    
+    .container-proximamente{
+        text-align: center;
+        background-color: rgba(235, 235, 235, 1);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+        margin: 25px;
+        margin-bottom: 400px;
+    }
+}
+
+
+@media(max-width:375px){
+    /* FOOTER */
+    .newsletter-button{
+        margin-top: 16px;
+    }
+
+    /* INDEX */
+    .main-banner-title p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* ABOUT */
+    .nosotros{
+        height: 210vh;
+    }
+
+    /* APPLE */
+        /* ok */
+
+    /* CONDICIONES */
+        /* ok */
+
+    /* LOGIN */
+        /* ok */
+
+    /* PROXIMAMENTE */
+        /* ok */
+}
+
+
+@media(max-width:320px){
+    /* HEADER */
+    .search-bar-text-area{
+        width: 190px;
+    }
+
+    /* INDEX */
+        /* ok */
+
+    /* ABOUT */
+    .nosotros{
+        height: 240vh;
+    }
+    
+    .container-cv-main-2{
+        align-self: center;
+        width: 95%;
+    }
+    
+
+    /* APPLE */
+        /* ok */
+
+    /* CONDICIONES */
+        /* ok */
+
+    /* LOGIN */
+    .login-box{
+        margin-top: 32px;
+    }
+
+    /* PROXIMAMENTE */
+        /* ok */
+}
+
+
+/* CORRECCIONES PUNTUALES */
+
+/* MAIN BANNER BOXES */
+@media(max-width:700px){
+    .container-boxes{
+        flex-direction: column;
+    }
+    
+    .box-index{
+        width: 90%;
+        line-height: 25px;
+    }
+}
+
+/* APPLE BOXES */
+@media(max-width:1000px){
+    .container-item{
+        width: 90%; 
+        column-gap: 50px;
+    }
+}
+
+/* ABOUT COLUMNS */
+@media(max-width:950px){
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200vh;
+        background-color: white;
+        justify-content: flex-start;
+        align-content: center;
+    } 
+}
+
+/* CONDICIONES */
+@media(max-width:1300px){
+    .condiciones{
+        height: auto;
+    }
+}
+
+/* PROXIMAMENTE*/
+@media(max-width:600px){
+    .proximamente{
+        width: 80%;
+        display: inline;
+    }
+    
+    .container-proximamente{
+        text-align: center;
+        background-color: rgba(235, 235, 235, 1);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+        margin: 25px;
+        margin-bottom: 400px;
+    }
+}
 
 
 /* HTML GENERALES --------------------------------------------------------------------*/
