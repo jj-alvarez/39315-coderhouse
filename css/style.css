@@ -936,6 +936,13 @@ ul{
     }
 }
 
+/* STORE */
+@media(max-width:425px){
+    .carousel-inner h3{
+        font-size: 20px;
+    }
+}
+
 
 /* SALON.HTML -- BOOTSTRAP---------------------------------------------------------------*/
 
@@ -953,6 +960,14 @@ ul{
     background-color: rgba(80, 138, 175, 1);
     color: white;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .card a{
@@ -961,7 +976,24 @@ ul{
     border-color: rgba(224, 208, 189, 1);
 }
 
+.card-body a:hover{
+    color: black;
+}
 
+.card-img-top{
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.carousel-inner h3{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 2px rgba(235, 235, 235, 1);
+    color: rgba(80, 138, 175, 1);
+}
 
 
 
@@ -972,3 +1004,5 @@ ul{
 /* dorado highlight rgba(224, 208, 189, 1);
 /* dorado claro rgba(251, 240, 216, 1);
 /* gris fondo rgba(235, 235, 235, 1);
+
+
