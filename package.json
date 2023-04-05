@@ -1,0 +1,11 @@
+{
+  "name": "pre-entrega-03---sass",
+  "version": "1.0.0",
+  "description": "Hola! A continuation detallo todos los cambios y upgrades que a la fecha tiene el sitio web creado en el curso de Desarrollo Web, commission 39315 de **CODERHOUSE**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

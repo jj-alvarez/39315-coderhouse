@@ -1,11 +1,17 @@
-# CELL PHONE STORE v2.0
+# CELL PHONE STORE
 
-Hola! A continuation detallo todos los cambios y upgrades que tiene esta version v2.0 del sitio web creado en el curso de Desarrollo Web, commission 39315 de **CODERHOUSE** 
+Hola! A continuation detallo todos los cambios y upgrades que a la fecha tiene el sitio web creado en el curso de Desarrollo Web, commission 39315 de **CODERHOUSE** 
 
-El sitio web corresponde a una negocio de venta de celulares y otros dispositivos electrónicos.
+El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de celulares y otros dispositivos electrónicos.
 
 
-# Generalidades
+# v3.0 - 13.abril.2023
+## Generalidades
+
+
+
+# v2.0 - 31.marzo.2023
+## Generalidades
 
 Se re escribieron en su totalidad todos los HTML ya que los de la version v1.0 se usaban, en su mayoría, "id" en lugar de "class".
 
