@@ -8,6 +8,16 @@ El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de 
 # v3.0 - 13.abril.2023
 ## Generalidades
 
+* Se incorporo SASS al proyecto. Se re-escribio el css anterior con nestings, variables y partials, entre otros.
+* Se incorporo Samsung.html al proyecto.
+* Se incorporo Google.html al proyecto.
+
+
+## Salon.html
+
+* Se corrigio el link de Google, ya no redirecciona a apple.com.
+
+
 
 
 # v2.0 - 31.marzo.2023

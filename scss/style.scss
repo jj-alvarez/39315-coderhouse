@@ -1,0 +1,22 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/funciones";
+
+@import "./base/reset";
+@import "./base/typo";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./layout/main-about";
+@import "./layout/main-condiciones";
+@import "./layout/main-index";
+@import "./layout/main-login";
+@import "./layout/main-market";
+@import "./layout/main-proximamente";
+@import "./layout/main-salon";
+
+@import "./layout/media";
+
+@import "./components/bootstrap";
+@import "./components/botones";

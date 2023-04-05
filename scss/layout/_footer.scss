@@ -1,0 +1,39 @@
+.container-newsletter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: $gris-newsletter;
+    color: $azul-principal;
+    padding-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    h3{
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    form{
+        padding-top: 16px;
+    }
+}
+
+
+/* NEWSLETTER BUTTON EN PARTIAL "_botones.scss" */
+
+
+.newsletter-text-area{
+    width: 260px;
+    height: 20px;
+}
+
+
+.container-footer{
+    background-color: $dorado-principal;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding: 16px;
+    margin-top: 0px;
+    display: block;
+}

@@ -1,0 +1,60 @@
+.login{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.login-box{
+    background-color: $gris-fondo; 
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 40px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    h3{
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+    form{
+        padding: 16px 0px 16px 0px;
+    }
+    label{
+        font-size: 18px;
+    }
+    input{
+        padding: 16px;
+        height: 50px;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    h4{
+        text-align: right;
+        color: rgba(80, 138, 175, 1);
+        padding-top: 20px;
+        font-size: 16px;
+        a{
+            text-decoration: none;
+            color: $azul-principal;
+        }
+        a:hover{
+            @include a-hover;
+        }
+    }
+}
+
+
+.registrarse{
+    background-color: white;
+}
+
+
+/* LOGIN BUTTON EN PARTIAL "_botones.scss" */
+
+
+/* REGISTRARSE BUTTON EN PARTIAL "_botones.scss" */

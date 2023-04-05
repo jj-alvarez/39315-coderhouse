@@ -1,0 +1,5 @@
+/* A:HOVER DORADO ESTANDAR - @include a-hover; */
+@mixin a-hover{
+    color: $dorado-principal;
+    font-weight: bold;
+}
