@@ -197,10 +197,12 @@ html {
   text-decoration: none;
   color: rgb(80, 138, 175);
   font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(224, 208, 189);
 }
 .box a:hover {
-  color: rgb(224, 208, 189);
+  color: white;
   font-weight: bold;
+  text-shadow: 2px 2px 2px grey;
 }
 .box p {
   margin-top: 16px;
@@ -240,7 +242,43 @@ html {
 .container-cv form {
   text-align: center;
 }
+.container-cv a {
+  text-decoration: none;
+  color: rgb(80, 138, 175);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(235, 235, 235);
+}
+.container-cv a:hover {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px grey;
+}
 
+.contacto-cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.contacto-cv label {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 30%;
+  text-align: center;
+}
+.contacto-cv input {
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 25px;
+}
+
+.cv-button {
+  margin-top: 20px;
+}
+
+/* CV Enviar BUTTON EN PARTIAL "_botones.scss" */
 .condiciones {
   background-color: white;
   width: 100%;
@@ -405,6 +443,26 @@ html {
   height: 100vh;
   height: auto;
   overflow: hidden;
+}
+.market h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px rgb(235, 235, 235);
+  color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.market h4 a {
+  text-decoration: none;
+  color: rgb(80, 138, 175);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(235, 235, 235);
+}
+.market h4 a:hover {
+  color: rgb(224, 208, 189);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px grey;
 }
 
 .container-item {
@@ -579,7 +637,9 @@ html {
   /* ABOUT */
   /* ok */
   /* APPLE */
-  /* ok */
+  .market h4 {
+    font-size: 18px;
+  }
   /* CONDICIONES */
   /* ok */
   /* LOGIN */
@@ -799,6 +859,18 @@ html {
   margin-right: 30%;
   margin-bottom: 100px;
   padding: 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+/* ABOUT / CV-Button  */
+.cv-button-cv {
+  background: rgb(80, 138, 175);
+  color: white;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 16px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px grey;

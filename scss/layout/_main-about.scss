@@ -36,9 +36,12 @@
         text-decoration: none;
         color: $azul-principal;
         font-weight: bold;
+        text-shadow: 2px 2px 2px $dorado-principal;
     }
     a:hover{
-        @include a-hover;
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px grey;
     }
     p{
         margin-top: 16px;
@@ -81,4 +84,44 @@
     form{
         text-align: center;
     }
+    a{
+        text-decoration: none;
+        color: $azul-principal;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px $gris-newsletter;
+    }
+    a:hover{
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px grey;
+    }
 }
+
+
+.contacto-cv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    label{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 30%;
+        text-align: center;
+    }
+    input{
+        width: 70%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 25px;
+    }
+}
+
+
+.cv-button{
+    margin-top: 20px;
+}
+
+
+/* CV Enviar BUTTON EN PARTIAL "_botones.scss" */

@@ -11,6 +11,18 @@ El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de 
 * Se incorporo SASS al proyecto. Se re-escribio el css anterior con nestings, variables y partials, entre otros.
 * Se incorporo Samsung.html al proyecto.
 * Se incorporo Google.html al proyecto.
+* Se le incorporo un "favicom" al sitio.
+
+
+## About.html
+
+* Se corrigio la estetica general de la "form" en el apartado "Queres trabajar con nosotros?"
+
+
+## Apple, Google y Samsung .html
+
+* Se les agrego un titulo superior para mejorar la interpretacion de la pagina.
+* Se hicieron ajustes menores en los media queries.
 
 
 ## Salon.html
