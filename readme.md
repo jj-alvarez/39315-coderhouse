@@ -5,6 +5,8 @@ Hola! A continuation detallo todos los cambios y upgrades que a la fecha tiene e
 El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de celulares y otros dispositivos electrónicos.
 
 
+
+
 # v3.0 - 13.abril.2023
 ## Generalidades
 
@@ -28,6 +30,8 @@ El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de 
 ## Salon.html
 
 * Se corrigio el link de Google, ya no redirecciona a apple.com.
+
+
 
 
 
