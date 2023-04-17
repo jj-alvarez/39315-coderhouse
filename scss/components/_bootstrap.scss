@@ -1,4 +1,4 @@
-/* SALON - MAIN */
+/* SALON */
 
 .bootstrap-cards{
     display: flex;
@@ -27,7 +27,16 @@
         color: black;
         border-color: $dorado-principal;
     }
+    height: auto;
+    transition: all 0.25s ease-in-out;
 }
+
+.card:hover{
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgb(55, 55, 55);
+}
+
+
 
 
 .card-body a:hover{

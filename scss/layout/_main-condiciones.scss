@@ -1,7 +1,7 @@
 .condiciones{
     background-color: white;
     width: 100%;
-    height: 100vh;
+    height: auto;
     text-align: justify;
     padding-bottom: 16px;
 }
@@ -19,5 +19,8 @@
     h4{
         padding-bottom: 16px;
         text-align: left;
+    }
+    p{
+        font-size: 16px;
     }
 }

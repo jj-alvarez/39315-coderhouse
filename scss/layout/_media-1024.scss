@@ -1,0 +1,38 @@
+@media(max-width:1024px){
+
+    /* HEADER */
+    .bottom-header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .search-bar-text-area{
+        margin-top: 16px;
+    }
+
+    /* INDEX */
+        /* ok */
+        
+    /* ABOUT */
+    .nosotros{
+        height: auto;
+    }
+
+    /* APPLE */
+    .market{
+        height: 100%;
+    }
+
+    /* CONDICIONES */
+    .condiciones{
+        height: 100%;
+    }
+
+    /* LOGIN */ 
+        /* ok */ 
+    
+    /* PROXIMAMENTE */ 
+        /* ok */ 
+}

@@ -1,0 +1,57 @@
+/* MAIN BANNER BOXES */
+@media(max-width:700px){
+    .container-boxes{
+        flex-direction: column;
+    }
+    
+    .box-index{
+        width: 90%;
+        line-height: 25px;
+    }
+}
+
+/* APPLE BOXES */
+@media(max-width:1000px){
+    .container-item{
+        width: 90%; 
+        column-gap: 50px;
+    }
+}
+
+/* ABOUT COLUMNS */
+@media(max-width:950px){
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        justify-content: flex-start;
+        align-content: center;
+    } 
+}
+
+/* CONDICIONES */
+@media(max-width:1300px){
+    .condiciones{
+        height: auto;
+    }
+}
+
+/* PROXIMAMENTE*/
+@media(max-width:600px){
+    .proximamente{
+        width: 80%;
+        display: inline;
+    }
+    
+    .container-proximamente{
+        text-align: center;
+        background-color: $gris-newsletter;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+        margin: 25px;
+        margin-bottom: 400px;
+    }
+}

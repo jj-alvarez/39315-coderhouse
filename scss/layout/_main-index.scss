@@ -73,4 +73,10 @@
     a:hover{
         @include a-hover;
     }
+    transition: all 0.2s ease-in-out;
+}
+
+.box-index:hover{
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgb(55, 55, 55);
 }

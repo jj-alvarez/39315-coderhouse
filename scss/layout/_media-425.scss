@@ -1,0 +1,105 @@
+@media(max-width:425px){
+
+    /* HEADER */
+    .top-header ul{
+        line-height: 25px;
+        text-align: right;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    
+    .top-header h1{
+        font-size: 28px;
+    }
+
+    .bottom-header ul li{
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px; 
+    }
+
+    .nav-main-header{
+        padding-top: 0px;
+    }
+
+    /* FOOTER */
+    .container-newsletter h3{
+        font-size: 16px;
+    }
+
+    .container-newsletter p{
+        font-size: 14px;
+    }
+
+    /* INDEX */
+    .main-banner-title h3{
+        font-size: 18px;
+    }
+
+    .main-banner-title p{
+        font-size: 16px;
+    }
+
+    .container-boxes{
+        flex-direction: column;
+    }
+    
+    .box-index{
+        width: 90%;
+        line-height: 25px;
+    }
+
+    /* ABOUT */
+        /* ok */
+
+    /* APPLE */
+    .market h4{
+        font-size: 18px;
+    }
+
+    /* CONDICIONES */
+    .container-condiciones{
+        p{
+            font-size: 14px;
+        }
+    }
+
+    /* LOGIN */
+    .login{
+        height: 70vh;
+    }
+
+    .login-box{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .registrarse{
+        background-color: white;
+        width: auto;
+    }
+    
+    .registrarse-button{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* PROXIMAMENTE */
+    .proximamente{
+        width: 80%;
+        display: inline;
+    }
+    
+    .container-proximamente{
+        text-align: center;
+        background-color: $gris-newsletter;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+        margin: 25px;
+        margin-bottom: 400px;
+    }
+}

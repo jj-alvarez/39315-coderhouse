@@ -16,7 +16,15 @@
 @import "./layout/main-proximamente";
 @import "./layout/main-salon";
 
-@import "./layout/media";
+@import "./layout/media-bootstrap";
+@import "./layout/media-1024";
+@import "./layout/media-768";
+@import "./layout/media-425";
+@import "./layout/media-375";
+@import "./layout/media-320";
+@import "./layout/media-varios";
+@import "./layout/media-bootstrap";
+
 
 @import "./components/bootstrap";
 @import "./components/botones";

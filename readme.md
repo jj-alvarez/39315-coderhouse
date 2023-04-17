@@ -7,6 +7,21 @@ El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de 
 
 
 
+# v4.0 - 16.abril.2023
+## Generalidades
+
+* Se agregaron distintas <meta> en el <head> de cada *.html para mejorar la SEO del sitio.
+* Se renombraron los nombres de los *.html, siguiendo con la logica "seccion | marca".
+* Se hicieron una serie correcciones y ajustes menores al css.
+* Se corrigieron todos los hover del nav principal de manera que todos los links <a> actuen igual.
+* Se agregaron e independizaron las distintas media queries en *.scss puntuales.
+* Se agregaron transiciones simples a todas las cards del sitio.
+
+
+
+
+
+
 # v3.0 - 13.abril.2023
 ## Generalidades
 
