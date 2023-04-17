@@ -411,12 +411,8 @@ html {
 
 .login {
   background-color: white;
-  height: auto;
+  height: 100vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
 }
 
 .login-box {
@@ -550,8 +546,7 @@ html {
 .proximamente {
   background-color: white;
   width: 100%;
-  /* height: 100vh; */
-  height: auto;
+  height: 100vh;
   margin-top: 10%;
   display: flex;
   flex-direction: column;
@@ -570,12 +565,6 @@ html {
 .container-proximamente p {
   padding-top: 16px;
   padding-bottom: 16px;
-}
-
-.proximamente-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 /* MAIN INCLUIDO EN EL PARTIAL "_bootstrap.scss" */
