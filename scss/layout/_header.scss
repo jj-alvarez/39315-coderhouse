@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    background-color: white;
+    background-color: $dorado-principal;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 14px;
@@ -15,13 +15,16 @@
         font-size: 34px;
         margin-bottom: 0px;
         margin-top: 0px;
+        color: black;
         a{
             text-decoration: none;
             text-transform: uppercase;
-            color: $azul-principal;
+            color: black;
         }
         a:hover{
-            @include a-hover;
+            color: $azul-principal;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px rgb(55, 55, 55);
         }
     }
     ul{
@@ -33,7 +36,7 @@
         text-decoration: none;
         text-transform: uppercase;
         list-style: none;
-        color: $azul-principal;
+        color: black;
         font-size: 16px;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -45,10 +48,12 @@
             a{
                 text-decoration: none;
                 text-transform: uppercase;
-                color: $azul-principal;
+                color: black;
             }
             a:hover{
-                @include a-hover;
+                color: $azul-principal;
+                font-weight: bold;
+                text-shadow: 1px 1px 1px rgb(55, 55, 55);
             }
         }
     }
@@ -112,3 +117,63 @@
 
 
 /* SEARCH BAR BUTTON EN PARTIAL "_botones.scss" */
+
+.top-header h1{
+    animation: heading1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes heading1 {
+    0% {left: -200px}
+    100% {left: 20px}
+}
+
+.top-header ul{
+    animation: thul;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes thul {
+    0% {right: -200px}
+    100% {right: 20px}
+}
+
+.bottom-header ul{
+    animation: bhul;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes bhul {
+    0% {left: -200px}
+    100% {left: -20px}
+}
+
+.search-bar-button{
+    animation: sbb;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes sbb {
+    0% {right: -200px}
+    100% {right: 20px}
+}
+
+.search-bar-text-area{
+    animation: sbta;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes sbta {
+    0% {right: -200px}
+    100% {right: 20px}
+}

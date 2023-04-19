@@ -58,3 +58,27 @@
 
 
 /* REGISTRARSE BUTTON EN PARTIAL "_botones.scss" */
+
+.login-box{
+    animation: lgb;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+    
+@keyframes lgb {
+    0% {left: -300px}
+    100% {left: 0px}
+}
+
+.registrarse{
+    animation: registrarse;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+    
+@keyframes registrarse {
+    0% {right: -300px}
+    100% {right: 0px}
+}

@@ -125,3 +125,27 @@
 
 
 /* CV Enviar BUTTON EN PARTIAL "_botones.scss" */
+
+.container-nosotros{
+    animation: cn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+    
+@keyframes cn {
+    0% {left: -200px}
+    100% {left: 0px}
+}
+
+.container-cv-main{
+    animation: ccm;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes ccm {
+    0% {right: -200px}
+    100% {right: 0px}
+}

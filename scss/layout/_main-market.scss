@@ -77,4 +77,22 @@
 
 }
 
+.market{
+    animation: market;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
 
+@keyframes market {
+    0% {left: -200px}
+    100% {left: 0px}
+}
+
+.market-item:hover{
+    background-color: $dorado-principal;
+    color: black;
+    a{
+        color: $azul-principal;
+    }
+}

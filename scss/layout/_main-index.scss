@@ -79,4 +79,10 @@
 .box-index:hover{
     font-size: 18px;
     box-shadow: 5px 5px 5px rgb(55, 55, 55);
+    background-color: $dorado-principal;
+    color: black;
+    a{
+        color: $azul-principal;
+        text-transform: bold;
+    }
 }

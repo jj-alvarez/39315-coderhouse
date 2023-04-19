@@ -28,7 +28,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  background-color: white;
+  background-color: rgb(224, 208, 189);
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 14px;
@@ -42,15 +42,17 @@ html {
   font-size: 34px;
   margin-bottom: 0px;
   margin-top: 0px;
+  color: black;
 }
 .top-header h1 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(80, 138, 175);
+  color: black;
 }
 .top-header h1 a:hover {
-  color: rgb(224, 208, 189);
+  color: rgb(80, 138, 175);
   font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(55, 55, 55);
 }
 .top-header ul {
   display: flex;
@@ -61,7 +63,7 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   list-style: none;
-  color: rgb(80, 138, 175);
+  color: black;
   font-size: 16px;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -75,11 +77,12 @@ html {
 .top-header ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(80, 138, 175);
+  color: black;
 }
 .top-header ul li a:hover {
-  color: rgb(224, 208, 189);
+  color: rgb(80, 138, 175);
   font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(55, 55, 55);
 }
 
 .nav-main-header {
@@ -136,6 +139,81 @@ html {
 }
 
 /* SEARCH BAR BUTTON EN PARTIAL "_botones.scss" */
+.top-header h1 {
+  animation: heading1;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes heading1 {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 20px;
+  }
+}
+.top-header ul {
+  animation: thul;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes thul {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 20px;
+  }
+}
+.bottom-header ul {
+  animation: bhul;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes bhul {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+.search-bar-button {
+  animation: sbb;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes sbb {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 20px;
+  }
+}
+.search-bar-text-area {
+  animation: sbta;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes sbta {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 20px;
+  }
+}
 .container-newsletter {
   display: flex;
   flex-direction: column;
@@ -298,6 +376,36 @@ html {
 }
 
 /* CV Enviar BUTTON EN PARTIAL "_botones.scss" */
+.container-nosotros {
+  animation: cn;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes cn {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.container-cv-main {
+  animation: ccm;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes ccm {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 0px;
+  }
+}
 .condiciones {
   background-color: white;
   width: 100%;
@@ -407,6 +515,12 @@ html {
 .box-index:hover {
   font-size: 18px;
   box-shadow: 5px 5px 5px rgb(55, 55, 55);
+  background-color: rgb(224, 208, 189);
+  color: black;
+}
+.box-index:hover a {
+  color: rgb(80, 138, 175);
+  text-transform: bold;
 }
 
 .login {
@@ -465,6 +579,36 @@ html {
 
 /* LOGIN BUTTON EN PARTIAL "_botones.scss" */
 /* REGISTRARSE BUTTON EN PARTIAL "_botones.scss" */
+.login-box {
+  animation: lgb;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes lgb {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.registrarse {
+  animation: registrarse;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes registrarse {
+  0% {
+    right: -300px;
+  }
+  100% {
+    right: 0px;
+  }
+}
 .market {
   background-color: white;
   width: 100%;
@@ -541,6 +685,29 @@ html {
   box-shadow: 5px 5px 5px rgb(55, 55, 55);
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.market {
+  animation: market;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes market {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.market-item:hover {
+  background-color: rgb(224, 208, 189);
+  color: black;
+}
+.market-item:hover a {
+  color: rgb(80, 138, 175);
 }
 
 .proximamente {

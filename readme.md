@@ -16,6 +16,7 @@ El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de 
 * Se corrigieron todos los hover del nav principal de manera que todos los links <a> actuen igual.
 * Se agregaron e independizaron las distintas media queries en *.scss puntuales.
 * Se agregaron transiciones simples a todas las cards del sitio.
+* Se agregaron animaciones simples en todo el sitio.
 
 
 
