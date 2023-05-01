@@ -7,6 +7,32 @@
         line-height: 32px;
     }
 
+    /* INDEX */
+
+    .main-banner-title{
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .box-index{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 14px;
+        }
+
+    }
+
     /* ABOUT */
         /* ok */
 
@@ -14,6 +40,20 @@
     .container-item{
         width: 90%; 
         column-gap: 50px;
+    }
+
+    .samsung-banner{
+        background-image: url("../assets/img/samsung/samsung-banner0768.jpg");
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .google-banner{
+        background-image: url("../assets/img/google/google-banner0768.jpg");
+        height: 500px;
+        background-position: center;
+        background-size: cover;
     }
 
     /* CONDICIONES */
@@ -28,7 +68,7 @@
     
     
     .registrarse-button{
-        width: 60%;
+        /* en PARTIAL botones */
     }
 
     /* PROXIMAMENTE */ 

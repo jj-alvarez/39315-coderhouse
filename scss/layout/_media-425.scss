@@ -35,16 +35,18 @@
     }
 
     /* INDEX */
-    .main-banner-title h3{
-        font-size: 18px;
-    }
-
-    .main-banner-title p{
-        font-size: 16px;
+    .main-banner-title{
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+        }
     }
 
     .container-boxes{
         flex-direction: column;
+        font-size: 16px;
     }
     
     .box-index{
@@ -58,6 +60,29 @@
     /* APPLE */
     .market h4{
         font-size: 18px;
+    }
+
+    .apple-banner{
+        background-image: url("../assets/img/apple/apple-banner0425.jpg");
+        height: 160px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .samsung-banner{
+        background-image: url("../assets/img/samsung/samsung-banner0425.jpg");
+        height: 160px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .google-banner{
+        background-image: url("../assets/img/google/google-banner0425.jpg");
+        height: 160px;
+        background-position: center;
+        background-size: cover;
     }
 
     /* CONDICIONES */
@@ -83,8 +108,7 @@
     }
     
     .registrarse-button{
-        margin-left: 10%;
-        margin-right: 10%;
+        /* en PARTIAL de botones */
     }
 
     /* PROXIMAMENTE */

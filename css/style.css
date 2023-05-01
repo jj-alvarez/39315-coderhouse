@@ -159,7 +159,7 @@ html {
     left: -200px;
   }
   100% {
-    left: 20px;
+    left: 0px;
   }
 }
 .top-header ul {
@@ -174,7 +174,7 @@ html {
     right: -200px;
   }
   100% {
-    right: 20px;
+    right: 0px;
   }
 }
 .bottom-header ul {
@@ -189,7 +189,7 @@ html {
     left: -200px;
   }
   100% {
-    left: -20px;
+    left: 0px;
   }
 }
 .search-bar-button {
@@ -204,7 +204,7 @@ html {
     right: -200px;
   }
   100% {
-    right: 20px;
+    right: 0px;
   }
 }
 .search-bar-text-area {
@@ -219,7 +219,7 @@ html {
     right: -200px;
   }
   100% {
-    right: 20px;
+    right: 0px;
   }
 }
 .container-newsletter {
@@ -457,7 +457,7 @@ html {
 }
 .main-banner-title h3 {
   font-size: 22px;
-  padding-top: 20px;
+  padding-top: 15px;
   color: black;
   text-shadow: 1px 1px lightgrey;
   text-align: center;
@@ -721,7 +721,7 @@ html {
 }
 
 .apple-banner {
-  background-image: url("../assets/img/apple/apple-banner.png");
+  background-image: url("../assets/img/apple/apple-banner0000.jpg");
   height: 500px;
   width: 100%;
   background-position: center;
@@ -729,14 +729,14 @@ html {
 }
 
 .samsung-banner {
-  background-image: url("../assets/img/samsung/samsung-banner.png");
+  background-image: url("../assets/img/samsung/samsung-banner9999.jpg");
   height: 500px;
   background-position: center;
   background-size: cover;
 }
 
 .google-banner {
-  background-image: url("../assets/img/google/google-banner.png");
+  background-image: url("../assets/img/google/google-banner0000.jpg");
   height: 500px;
   background-position: center;
   background-size: cover;
@@ -800,6 +800,18 @@ html {
   .market {
     height: 100%;
   }
+  .samsung-banner {
+    background-image: url("../assets/img/samsung/samsung-banner1024.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+  .google-banner {
+    background-image: url("../assets/img/google/google-banner1024.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
   /* CONDICIONES */
   .condiciones {
     height: 100%;
@@ -814,12 +826,44 @@ html {
   .bottom-header ul li {
     line-height: 32px;
   }
+  /* INDEX */
+  .main-banner-title h3 {
+    font-size: 16px;
+  }
+  .main-banner-title p {
+    font-size: 16px;
+  }
+  .box-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .box-index h3 {
+    font-size: 16px;
+  }
+  .box-index p {
+    font-size: 14px;
+  }
   /* ABOUT */
   /* ok */
   /* APPLE */
   .container-item {
     width: 90%;
     column-gap: 50px;
+  }
+  .samsung-banner {
+    background-image: url("../assets/img/samsung/samsung-banner0768.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+  .google-banner {
+    background-image: url("../assets/img/google/google-banner0768.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
   }
   /* CONDICIONES */
   /* ok */
@@ -829,7 +873,7 @@ html {
     margin-right: 20%;
   }
   .registrarse-button {
-    width: 60%;
+    /* en PARTIAL botones */
   }
   /* PROXIMAMENTE */
   /* ok */
@@ -865,13 +909,14 @@ html {
   }
   /* INDEX */
   .main-banner-title h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .main-banner-title p {
     font-size: 16px;
   }
   .container-boxes {
     flex-direction: column;
+    font-size: 16px;
   }
   .box-index {
     width: 90%;
@@ -882,6 +927,26 @@ html {
   /* APPLE */
   .market h4 {
     font-size: 18px;
+  }
+  .apple-banner {
+    background-image: url("../assets/img/apple/apple-banner0425.jpg");
+    height: 160px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .samsung-banner {
+    background-image: url("../assets/img/samsung/samsung-banner0425.jpg");
+    height: 160px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .google-banner {
+    background-image: url("../assets/img/google/google-banner0425.jpg");
+    height: 160px;
+    background-position: center;
+    background-size: cover;
   }
   /* CONDICIONES */
   .container-condiciones p {
@@ -900,8 +965,7 @@ html {
     width: auto;
   }
   .registrarse-button {
-    margin-left: 10%;
-    margin-right: 10%;
+    /* en PARTIAL de botones */
   }
   /* PROXIMAMENTE */
   .proximamente {
@@ -920,6 +984,9 @@ html {
 }
 @media (max-width: 375px) {
   /* FOOTER */
+  .login {
+    height: 75vh;
+  }
   .newsletter-button {
     margin-top: 16px;
   }
@@ -952,7 +1019,19 @@ html {
     width: 95%;
   }
   /* APPLE */
-  /* ok */
+  .apple-banner {
+    background-image: url("../assets/img/apple/apple-banner0320.jpg");
+    height: 94px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .google-banner {
+    background-image: url("../assets/img/google/google-banner0320.jpg");
+    height: 94px;
+    background-position: center;
+    background-size: cover;
+  }
   /* CONDICIONES */
   /* ok */
   /* LOGIN */
@@ -1123,6 +1202,20 @@ html {
   font-size: 16px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px grey;
+}
+@media (max-width: 768px) {
+  .registrarse-button {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media (max-width: 425px) {
+  .registrarse-button {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 /* ABOUT / CV-Button  */

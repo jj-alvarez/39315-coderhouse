@@ -127,7 +127,7 @@
 
 @keyframes heading1 {
     0% {left: -200px}
-    100% {left: 20px}
+    100% {left: 0px}
 }
 
 .top-header ul{
@@ -139,7 +139,7 @@
 
 @keyframes thul {
     0% {right: -200px}
-    100% {right: 20px}
+    100% {right: 0px}
 }
 
 .bottom-header ul{
@@ -151,7 +151,7 @@
 
 @keyframes bhul {
     0% {left: -200px}
-    100% {left: -20px}
+    100% {left: 00px}
 }
 
 .search-bar-button{
@@ -163,7 +163,7 @@
 
 @keyframes sbb {
     0% {right: -200px}
-    100% {right: 20px}
+    100% {right: 0px}
 }
 
 .search-bar-text-area{
@@ -175,5 +175,5 @@
 
 @keyframes sbta {
     0% {right: -200px}
-    100% {right: 20px}
+    100% {right: 00px}
 }

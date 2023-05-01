@@ -10,14 +10,12 @@ El sitio web se llama "CELL PHONE STORE" y corresponde a un negocio de venta de 
 # v5.0 - 01.mayo.2023
 ## Generalidades
 
-* Se realizaron una serie de ajustes menores de diseño general en las distintas paginas.
+* Se realizaron una serie de ajustes menores de diseño general en las distintas paginas (proporciones, media queries, etc).
 * Se ajusto la paleta de colores por una un poco mas "viva" ya que la anterior estaba muy "apagada" y con poca saturacion de color.
 * Se cambiaron las tipologias del sitio, dejando de lado las convencionales (arial, helvetica, etc) y se cambiaron por una mas moderna (poppins).
 * Se customizaron por medio de banners institucionales las paginas de apple, samsung y google.
 * Se cambio el texto tipo "lorem" de la pagina condiciones.html y en su lugar se coloco un texto tipico de bases y condiciones de una empresa de venta de celulares y dospositivos electronicos.
-* media queries
-* presupuesto
-* subir a host
+
 
 
 

@@ -25,6 +25,20 @@
         height: 100%;
     }
 
+    .samsung-banner{
+        background-image: url("../assets/img/samsung/samsung-banner1024.jpg");
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .google-banner{
+        background-image: url("../assets/img/google/google-banner1024.jpg");
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+
     /* CONDICIONES */
     .condiciones{
         height: 100%;

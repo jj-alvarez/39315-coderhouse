@@ -44,6 +44,16 @@
     font-size: 16px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
+    @media(max-width:768px){
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    @media(max-width:425px){
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 /* ABOUT / CV-Button  */
