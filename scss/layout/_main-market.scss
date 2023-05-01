@@ -96,3 +96,28 @@
         color: $azul-principal;
     }
 }
+
+
+.apple-banner{
+    background-image: url("../assets/img/apple/apple-banner.png");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.samsung-banner{
+    background-image: url("../assets/img/samsung/samsung-banner.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.google-banner{
+    background-image: url("../assets/img/google/google-banner.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}

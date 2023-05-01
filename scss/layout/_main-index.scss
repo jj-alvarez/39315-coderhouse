@@ -12,7 +12,7 @@
     margin-top: 550px;
     h3{
         font-size: 22px;
-        padding-top: 40px;
+        padding-top: 20px;
         color: black;
         text-shadow: 1px 1px lightgrey;
         text-align: center;
@@ -26,7 +26,8 @@
     }
     a{
         text-decoration: none;
-        color: black;
+        text-transform: bold;
+        color: $azul-principal;
     }   
     a:hover{
         @include a-hover;

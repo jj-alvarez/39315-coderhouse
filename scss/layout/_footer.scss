@@ -30,11 +30,12 @@
 
 
 .container-footer{
-    background-color: $dorado-principal;
+    background-color: $footer-footer;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 10px;
     padding-right: 10px;
+    border-top: $azul-principal 1px solid;
     p{
         text-align: center;
         vertical-align: center;
